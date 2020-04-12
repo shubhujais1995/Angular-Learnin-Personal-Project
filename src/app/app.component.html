@@ -1,0 +1,64 @@
+<app-child>Hello Shubham!</app-child>
+
+
+<!-- {{title}}
+
+<div *ngIf="!name; else formInfo">
+
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)" >
+    <label for="name"> Name </label>
+    <input type="text" name='name' formControlName="name">
+    <div *ngIf="!myForm.controls['name'].valid && myForm.controls['name'].touched" >This Field is required</div>
+    <mat-form-field>
+      <input matInput placeholder="Input" formControlName="name">
+      <mat-error *ngIf="!myForm.controls['name'].valid && myForm.controls['name'].touched">
+          This Field is required
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput formControlName="description" placeholder="Description"
+      ></textarea>
+      <mat-error *ngIf="!myForm.controls['description'].valid && myForm.controls['description'].touched">
+        Desription has to be between 30 to 500 characters
+      </mat-error>
+    </mat-form-field>
+    <label for="desc"> Description</label>
+    <input type="textarea" name="desc" formControlName="description">
+    <div *ngIf="!myForm.controls['description'].valid && myForm.controls['description'].touched"> Description has to be between 5 to 30 characters</div>
+
+    <label for="address"> Address </label>
+    <label for="country">Country</label>
+    <input type="text" name="country" formControlName="country">
+
+    <label for="state">State</label>
+    <input type="text" name="state" formControlName="state">
+
+    <label for="city">City</label>
+    <input type="text" name="city" formControlName="city">
+
+    <label for="pin">Pin Code</label>
+    <input type="number" name="pin" formControlName="pinCode">
+
+    <label for="street">Street</label>
+    <input type="text" name="street" formControlName="street">
+
+    <label for="flatNo"> Flat No</label>
+    <input type="text" name="flatNo" formControlName="flatNumber">
+
+    <input type="submit" value="Submit Form" [disabled]="!myForm.valid">
+  </form>
+</div>
+
+
+<ng-template #formInfo> 
+  <div>
+    <h1>Name: {{ name }} </h1>
+    <p>About: {{ description }} </p>
+    <span>Addresh: Country: {{Address.country}}</span> <br>
+    <span>State: {{Address.state}}</span> <br>
+    <span>City: {{Address.city}}</span> <br>
+    <span>Pin Code: {{Address.pinCode}}</span> <br>
+    <span>Street: {{Address.street}}</span> <br>
+    <span>Flat Number: {{Address.flatNumber}}</span> <br>
+  </div>
+</ng-template> -->
